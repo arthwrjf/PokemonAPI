@@ -1,0 +1,82 @@
+Monte sua estilização aqui
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.063rem;
+}
+
+.div__header {
+    padding-left: 6.125rem;
+    padding-right: 6.125rem;
+    padding-bottom: 2.306rem;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-bottom: 2.313rem;
+}
+
+.searchBar {
+    padding: 0.938rem 1.5rem;
+    border: 0.125rem solid var(--color-grey-2);
+    border-radius: 0.5rem;
+    background-color: var(--color-grey-2);
+    font-size: var(--font-size-2);
+    font-weight: 500;
+    color: var(--color-grey-4);
+}
+
+.searchBtn {
+    padding: 0.688rem 2.125rem;
+    background-color: var(--color-blue-1);
+    border: 0.125rem solid var(--color-blue-1);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.title {
+    font-size: var(--font-size-1);
+    font-weight: 500;
+    color: var(--color-grey-5);
+    text-align: center;
+}
+
+.loading {
+    padding-top: 4.619rem;
+    font-size: var(--font-size-3);
+    font-weight: 500;
+    color: var(--color-grey-3);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    width: 50.063rem;
+}
+
+li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    background-color: var(--color-grey-2);
+    border: 0.125rem solid var(--color-grey-2);
+    border-radius: 0.5rem;
+    font-size: var(--font-size-3);
+    font-weight: 500;
+    color: var(--color-grey-5);
+
+}
+
+@media(max-width: 900px) {
+    ul {
+        width: 17.5rem;
+    }
+}
